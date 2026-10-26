@@ -26,40 +26,57 @@ const inter = Inter({
   display: 'swap',
 });
 
+const canonicalSiteUrl = 'https://jiwafighter.syahmiaof.my';
 const configuredSiteUrl = process.env.NEXT_PUBLIC_SITE_URL?.trim();
-const vercelHost = process.env.VERCEL_URL?.trim();
 const siteUrl = configuredSiteUrl
   ? (/^https?:\/\//i.test(configuredSiteUrl) ? configuredSiteUrl : `https://${configuredSiteUrl}`)
-  : vercelHost
-    ? `https://${vercelHost}`
-    : 'http://localhost:3000';
+  : canonicalSiteUrl;
 
 const siteTitle = 'JIWA FIGHTER — Iron Heritage Combatwear';
 const siteDescription = 'Premium Malaysian combatwear rooted in heritage and built for movement.';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: siteTitle,
+  title: {
+    default: siteTitle,
+    template: '%s | JIWA FIGHTER',
+  },
   description:
     'Premium Malaysian combatwear and heritage streetwear. Engineered for discipline, movement, and identity.',
+  alternates: {
+    canonical: siteUrl,
+  },
   openGraph: {
     type: 'website',
+    url: siteUrl,
     siteName: 'JIWA FIGHTER',
     title: siteTitle,
     description: siteDescription,
     locale: 'en_MY',
-    images: [{
-      url: '/opengraph-image.png',
-      width: 1200,
-      height: 630,
-      alt: 'JIWA FIGHTER — Malaysian combatwear rooted in heritage and built for movement',
-    }],
+    images: [
+      {
+        url: `${siteUrl}/opengraph-image.jpg`,
+        secureUrl: `${siteUrl}/opengraph-image.jpg`,
+        width: 1200,
+        height: 630,
+        type: 'image/jpeg',
+        alt: 'JIWA FIGHTER — Malaysian combatwear rooted in heritage and built for movement',
+      },
+      {
+        url: `${siteUrl}/opengraph-image.png`,
+        secureUrl: `${siteUrl}/opengraph-image.png`,
+        width: 1200,
+        height: 630,
+        type: 'image/png',
+        alt: 'JIWA FIGHTER — Malaysian combatwear rooted in heritage and built for movement',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: siteTitle,
     description: siteDescription,
-    images: ['/opengraph-image.png'],
+    images: [`${siteUrl}/opengraph-image.jpg`],
   },
   icons: {
     icon: [
