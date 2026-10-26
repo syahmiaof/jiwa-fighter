@@ -1,0 +1,83 @@
+.satria-launcher {
+  position: fixed;
+  right: max(24px, env(safe-area-inset-right));
+  bottom: max(24px, env(safe-area-inset-bottom));
+  z-index: 50;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 52px;
+  padding: 0 18px;
+  border: 1px solid rgba(198, 162, 96, .55);
+  background: #0c0d0f;
+  color: #f0ece3;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, .32);
+  font: 600 11px/1 var(--font-sans), sans-serif;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  transition: border-color .2s ease, color .2s ease;
+}
+.satria-launcher svg { width: 18px; height: 18px; color: #c6a260; }
+.satria-launcher:hover { border-color: #c6a260; color: #c6a260; }
+.satria-launcher-open { opacity: 0; pointer-events: none; }
+.satria-launcher:focus-visible, .satria-dialog button:focus-visible, .satria-dialog a:focus-visible, .satria-dialog input:focus-visible { outline: 2px solid #c6a260; outline-offset: 3px; }
+.satria-dialog {
+  position: fixed;
+  inset: auto max(24px, env(safe-area-inset-right)) max(88px, calc(env(safe-area-inset-bottom) + 72px)) auto;
+  width: min(405px, calc(100vw - 32px));
+  height: min(620px, calc(100dvh - 122px));
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid rgba(198, 162, 96, .55);
+  background: #0c0d0f;
+  color: #f0ece3;
+  box-shadow: 0 22px 70px rgba(0, 0, 0, .5);
+  animation: satria-enter .24s cubic-bezier(.2,.7,.2,1) both;
+}
+.satria-dialog::backdrop { background: rgba(0, 0, 0, .18); }
+.satria-panel { display: flex; width: 100%; height: 100%; flex-direction: column; }
+.satria-header { display: flex; align-items: center; gap: 12px; min-height: 74px; padding: 13px 16px; border-bottom: 1px solid rgba(240,236,227,.12); background: #111316; }
+.satria-mark { display: grid; width: 36px; height: 36px; place-items: center; border: 1px solid rgba(198,162,96,.7); color: #c6a260; font: 400 21px/1 var(--font-display), sans-serif; }
+.satria-header h2 { display: flex; align-items: center; gap: 8px; color: #f0ece3; font: 400 18px/1.1 var(--font-display), sans-serif; letter-spacing: .12em; }
+.satria-header p { margin-top: 4px; overflow: hidden; color: rgba(240,236,227,.54); font: 10px/1.35 var(--font-sans), sans-serif; text-overflow: ellipsis; white-space: nowrap; }
+.satria-live-dot { width: 6px; height: 6px; border-radius: 50%; background: #c6a260; box-shadow: 0 0 0 3px rgba(198,162,96,.12); }
+.satria-icon-button { display: grid; width: 32px; height: 32px; flex: 0 0 auto; place-items: center; border: 1px solid transparent; color: rgba(240,236,227,.65); transition: color .2s, border-color .2s; }
+.satria-icon-button:hover { border-color: rgba(198,162,96,.35); color: #c6a260; }
+.satria-icon-button:disabled { opacity: .35; }
+.satria-body { display: flex; flex: 1; flex-direction: column; gap: 13px; overflow-y: auto; padding: 20px 16px; overscroll-behavior: contain; }
+.satria-welcome { padding: 15px; border-left: 2px solid #c6a260; background: rgba(240,236,227,.035); }
+.satria-kicker { color: #c6a260; font: 9px/1.4 var(--font-sans), sans-serif; letter-spacing: .14em; }
+.satria-welcome p { margin-top: 9px; color: rgba(240,236,227,.82); font: 13px/1.65 var(--font-sans), sans-serif; }
+.satria-suggestions { display: grid; gap: 7px; margin-top: auto; }
+.satria-suggestions button { display: flex; min-height: 41px; align-items: center; justify-content: space-between; gap: 10px; padding: 8px 11px; border: 1px solid rgba(240,236,227,.13); color: rgba(240,236,227,.82); text-align: left; font: 11px/1.4 var(--font-sans), sans-serif; transition: border-color .18s ease, color .18s ease; }
+.satria-suggestions button:hover { border-color: rgba(198,162,96,.65); color: #c6a260; }
+.satria-suggestions svg, .satria-response-link svg { flex: 0 0 auto; color: #c6a260; }
+.satria-message { max-width: 92%; padding: 11px 13px; color: #f0ece3; font: 12px/1.65 var(--font-sans), sans-serif; animation: satria-message-in .2s ease-out both; }
+.satria-message-user { align-self: flex-end; background: #28231a; border: 1px solid rgba(198,162,96,.3); }
+.satria-message-assistant { align-self: flex-start; background: #15171a; border-left: 2px solid #c6a260; }
+.satria-response-link { display: inline-flex; align-items: center; gap: 6px; margin-top: 9px; color: #c6a260; font: 600 9px/1.35 var(--font-sans), sans-serif; letter-spacing: .08em; text-transform: uppercase; }
+.satria-thinking { align-self: flex-start; color: rgba(240,236,227,.55); font: 11px/1.5 var(--font-sans), sans-serif; }
+.satria-bottom { padding: 10px 14px 14px; border-top: 1px solid rgba(240,236,227,.12); background: #101214; }
+.satria-bottom > p { display: flex; align-items: flex-start; gap: 6px; margin-bottom: 9px; color: rgba(240,236,227,.42); font: 9px/1.4 var(--font-sans), sans-serif; }
+.satria-bottom > p svg { flex: 0 0 auto; color: #c6a260; }
+.satria-composer { display: flex; min-height: 44px; align-items: center; gap: 8px; padding: 4px 5px 4px 12px; border: 1px solid rgba(240,236,227,.19); background: #0c0d0f; transition: border-color .2s; }
+.satria-composer:focus-within { border-color: #c6a260; }
+.satria-composer input { width: 100%; min-width: 0; border: 0; outline: 0; background: transparent; color: #f0ece3; font: 12px/1.4 var(--font-sans), sans-serif; }
+.satria-composer input::placeholder { color: rgba(240,236,227,.42); }
+.satria-composer button { display: grid; width: 34px; height: 34px; flex: 0 0 auto; place-items: center; background: #c6a260; color: #0c0d0f; transition: opacity .2s; }
+.satria-composer button:disabled { opacity: .35; }
+@keyframes satria-enter { from { opacity: 0; transform: translateY(9px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes satria-message-in { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+@media (max-width: 640px) {
+  .satria-launcher { right: max(24px, env(safe-area-inset-right)); bottom: max(24px, env(safe-area-inset-bottom)); min-height: 48px; padding: 0 14px; }
+  .satria-dialog { inset: auto 10px max(72px, calc(env(safe-area-inset-bottom) + 62px)) 10px; width: auto; height: min(640px, calc(100dvh - 94px - env(safe-area-inset-bottom))); }
+  .satria-header { min-height: 68px; padding: 11px 12px; gap: 8px; }
+  .satria-body { padding: 15px 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .satria-launcher, .satria-dialog, .satria-message { animation: none; transition: none; }
+}

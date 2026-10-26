@@ -1,0 +1,59 @@
+{
+  "routeStatuses": [
+    {
+      "route": "/",
+      "status": 200
+    },
+    {
+      "route": "/shop",
+      "status": 200
+    },
+    {
+      "route": "/collections/silat-series",
+      "status": 200
+    },
+    {
+      "route": "/products/keris-tuah",
+      "status": 200
+    },
+    {
+      "route": "/lookbook",
+      "status": 200
+    },
+    {
+      "route": "/our-story",
+      "status": 200
+    },
+    {
+      "route": "/custom",
+      "status": 200
+    },
+    {
+      "route": "/size-guide",
+      "status": 200
+    },
+    {
+      "route": "/support",
+      "status": 200
+    }
+  ],
+  "checks": [
+    "All nine routes return HTTP 200 and render the approved horizontal header image.",
+    "Desktop HOME navigation returns to the homepage and marks the active route.",
+    "SATRIA launcher shows the transparent robot mascot with the blink animation.",
+    "Footer logo was captured in its actual page background for blend verification.",
+    "Deterministic FAQ exact and paraphrase matches work in EN and BM; unconfirmed shipping stays unconfirmed.",
+    "Order/status, policy and prompt-injection requests do not invent data; missing provider is reported honestly.",
+    "Malformed JSON, oversized message and oversized request body are rejected.",
+    "Desktop context quick replies, FAQ, Tab loop, cart/chat modal exclusivity, Escape close and focus return work.",
+    "Mobile navigation includes the localized HOME link.",
+    "Mobile chat fits 390×844, works in BM, respects reduced-motion and closes via Escape.",
+    "No provider credential name or key-like value is exposed in loaded inline browser scripts.",
+    "Best-effort in-process request limit is enforced after 18 requests.",
+    "Welcome intro displays for five seconds, fades out, and does not replay on in-session Home navigation (5827ms).",
+    "Welcome intro can be skipped on mobile and disables animation for reduced-motion preference."
+  ],
+  "runtimeErrors": [],
+  "providerConfigured": false,
+  "liveLlm": "not exercised; no provider configuration was found in the environment"
+}

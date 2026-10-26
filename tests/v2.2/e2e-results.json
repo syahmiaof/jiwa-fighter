@@ -1,0 +1,112 @@
+{
+  "base": "http://localhost:3000",
+  "capturedAt": "2026-10-26T02:34:15.159Z",
+  "results": [
+    {
+      "name": "route-1-language",
+      "status": "passed",
+      "ms": 3464
+    },
+    {
+      "name": "route-2-language",
+      "status": "passed",
+      "ms": 3376
+    },
+    {
+      "name": "route-3-language",
+      "status": "passed",
+      "ms": 3322
+    },
+    {
+      "name": "route-4-language",
+      "status": "passed",
+      "ms": 3028
+    },
+    {
+      "name": "route-5-language",
+      "status": "passed",
+      "ms": 3223
+    },
+    {
+      "name": "route-6-language",
+      "status": "passed",
+      "ms": 3003
+    },
+    {
+      "name": "route-7-language",
+      "status": "passed",
+      "ms": 3294
+    },
+    {
+      "name": "route-8-language",
+      "status": "passed",
+      "ms": 3170
+    },
+    {
+      "name": "route-9-language",
+      "status": "passed",
+      "ms": 2864
+    },
+    {
+      "name": "catalog-filter-sort-navigation",
+      "status": "passed",
+      "ms": 3868
+    },
+    {
+      "name": "product-gallery-cart-variants-persistence-checkout",
+      "status": "passed",
+      "ms": 6901
+    },
+    {
+      "name": "search-keyboard-focus-trap-escape",
+      "status": "passed",
+      "ms": 2360
+    },
+    {
+      "name": "teamwear-form-validation-simulation",
+      "status": "passed",
+      "ms": 2868
+    },
+    {
+      "name": "support-faq-search-form",
+      "status": "passed",
+      "ms": 2763
+    },
+    {
+      "name": "size-guide-keyboard-selection",
+      "status": "passed",
+      "ms": 2342
+    },
+    {
+      "name": "mobile-menu-route-close",
+      "status": "passed",
+      "ms": 2487
+    },
+    {
+      "name": "geometry-1536x1024",
+      "status": "passed",
+      "ms": 40442
+    },
+    {
+      "name": "geometry-1440x900",
+      "status": "passed",
+      "ms": 33400
+    },
+    {
+      "name": "geometry-1920x1080",
+      "status": "passed",
+      "ms": 38331
+    },
+    {
+      "name": "geometry-390x844",
+      "status": "passed",
+      "ms": 31718
+    },
+    {
+      "name": "reduced-motion-all-routes",
+      "status": "passed",
+      "ms": 20210
+    }
+  ],
+  "runtimeErrors": []
+}

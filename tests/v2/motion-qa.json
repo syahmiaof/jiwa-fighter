@@ -1,0 +1,12 @@
+{
+  "url": "http://localhost:43140",
+  "browser": "Chromium",
+  "checks": [
+    "Search: initial focus, Tab loop, Escape, focus return",
+    "Cart + nested checkout: focus isolation, independent Escape, stacked scroll lock, focus return",
+    "Live reduced-motion switch: hero/cards visible and inline transforms reverted",
+    "Client navigation across Shop, Lookbook, Story, Home without runtime/GSAP warnings",
+    "390px mobile drawer remains in viewport"
+  ],
+  "errors": []
+}

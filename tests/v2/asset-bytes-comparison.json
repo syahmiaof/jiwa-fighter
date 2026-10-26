@@ -1,0 +1,164 @@
+{
+  "scope": "Paired files with same role only, original .webp vs -v2.webp, plus three original PNG emblems. Crops change framing; not a quality-equivalent compression benchmark or runtime transfer total. New wordmarks/detail alternatives excluded.",
+  "files": [
+    {
+      "original": "public\\assets\\campaigns\\homepage-hero-athlete.webp",
+      "refined": "public\\assets\\campaigns\\homepage-hero-athlete-v2.webp",
+      "beforeBytes": 173586,
+      "afterBytes": 107006
+    },
+    {
+      "original": "public\\assets\\campaigns\\lookbook-card-craft.webp",
+      "refined": "public\\assets\\campaigns\\lookbook-card-craft-v2.webp",
+      "beforeBytes": 19142,
+      "afterBytes": 29124
+    },
+    {
+      "original": "public\\assets\\campaigns\\lookbook-card-fighter.webp",
+      "refined": "public\\assets\\campaigns\\lookbook-card-fighter-v2.webp",
+      "beforeBytes": 12014,
+      "afterBytes": 32402
+    },
+    {
+      "original": "public\\assets\\campaigns\\lookbook-card-land.webp",
+      "refined": "public\\assets\\campaigns\\lookbook-card-land-v2.webp",
+      "beforeBytes": 16054,
+      "afterBytes": 7254
+    },
+    {
+      "original": "public\\assets\\campaigns\\lookbook-hero-warehouse.webp",
+      "refined": "public\\assets\\campaigns\\lookbook-hero-warehouse-v2.webp",
+      "beforeBytes": 138468,
+      "afterBytes": 100006
+    },
+    {
+      "original": "public\\assets\\campaigns\\lookbook-inset-badge.webp",
+      "refined": "public\\assets\\campaigns\\lookbook-inset-badge-v2.webp",
+      "beforeBytes": 34814,
+      "afterBytes": 29124
+    },
+    {
+      "original": "public\\assets\\campaigns\\lookbook-inset-hands.webp",
+      "refined": "public\\assets\\campaigns\\lookbook-inset-hands-v2.webp",
+      "beforeBytes": 24840,
+      "afterBytes": 17184
+    },
+    {
+      "original": "public\\assets\\campaigns\\silat-hero-stance.webp",
+      "refined": "public\\assets\\campaigns\\silat-hero-stance-v2.webp",
+      "beforeBytes": 153506,
+      "afterBytes": 104360
+    },
+    {
+      "original": "public\\assets\\campaigns\\teamwear-group-athletes.webp",
+      "refined": "public\\assets\\campaigns\\teamwear-group-athletes-v2.webp",
+      "beforeBytes": 198338,
+      "afterBytes": 113014
+    },
+    {
+      "original": "public\\assets\\products\\collection-preview-01-apparel.webp",
+      "refined": "public\\assets\\products\\collection-preview-01-apparel-v2.webp",
+      "beforeBytes": 27352,
+      "afterBytes": 18312
+    },
+    {
+      "original": "public\\assets\\products\\collection-preview-02-training.webp",
+      "refined": "public\\assets\\products\\collection-preview-02-training-v2.webp",
+      "beforeBytes": 20342,
+      "afterBytes": 11510
+    },
+    {
+      "original": "public\\assets\\products\\collection-preview-03-accessories.webp",
+      "refined": "public\\assets\\products\\collection-preview-03-accessories-v2.webp",
+      "beforeBytes": 16622,
+      "afterBytes": 9234
+    },
+    {
+      "original": "public\\assets\\products\\keris-tuah-main.webp",
+      "refined": "public\\assets\\products\\keris-tuah-main-v2.webp",
+      "beforeBytes": 182034,
+      "afterBytes": 134404
+    },
+    {
+      "original": "public\\assets\\products\\keris-tuah-thumb-back.webp",
+      "refined": "public\\assets\\products\\keris-tuah-thumb-back-v2.webp",
+      "beforeBytes": 8332,
+      "afterBytes": 6466
+    },
+    {
+      "original": "public\\assets\\products\\keris-tuah-thumb-collar.webp",
+      "refined": "public\\assets\\products\\keris-tuah-thumb-collar-v2.webp",
+      "beforeBytes": 9722,
+      "afterBytes": 7602
+    },
+    {
+      "original": "public\\assets\\products\\keris-tuah-thumb-detail.webp",
+      "refined": "public\\assets\\products\\keris-tuah-thumb-detail-v2.webp",
+      "beforeBytes": 11742,
+      "afterBytes": 10060
+    },
+    {
+      "original": "public\\assets\\products\\keris-tuah-thumb-front.webp",
+      "refined": "public\\assets\\products\\keris-tuah-thumb-front-v2.webp",
+      "beforeBytes": 7446,
+      "afterBytes": 5408
+    },
+    {
+      "original": "public\\assets\\products\\shop-heritage-jersey.webp",
+      "refined": "public\\assets\\products\\shop-heritage-jersey-v2.webp",
+      "beforeBytes": 68440,
+      "afterBytes": 50556
+    },
+    {
+      "original": "public\\assets\\products\\shop-keris-tuah-jersey.webp",
+      "refined": "public\\assets\\products\\shop-keris-tuah-jersey-v2.webp",
+      "beforeBytes": 69138,
+      "afterBytes": 50340
+    },
+    {
+      "original": "public\\assets\\products\\shop-silat-jersey.webp",
+      "refined": "public\\assets\\products\\shop-silat-jersey-v2.webp",
+      "beforeBytes": 63702,
+      "afterBytes": 43716
+    },
+    {
+      "original": "public\\assets\\products\\silat-heritage-jersey-back.webp",
+      "refined": "public\\assets\\products\\silat-heritage-jersey-back-v2.webp",
+      "beforeBytes": 15930,
+      "afterBytes": 13496
+    },
+    {
+      "original": "public\\assets\\products\\silat-sleeve-culture-detail.webp",
+      "refined": "public\\assets\\products\\silat-sleeve-culture-detail-v2.webp",
+      "beforeBytes": 27064,
+      "afterBytes": 16248
+    },
+    {
+      "original": "public\\assets\\products\\silat-training-jersey-front.webp",
+      "refined": "public\\assets\\products\\silat-training-jersey-front-v2.webp",
+      "beforeBytes": 15296,
+      "afterBytes": 11730
+    },
+    {
+      "original": "public\\assets\\brand\\emblem-white.png",
+      "refined": "public\\assets\\brand\\emblem-white-v2.webp",
+      "beforeBytes": 176500,
+      "afterBytes": 4600
+    },
+    {
+      "original": "public\\assets\\brand\\emblem-brass.png",
+      "refined": "public\\assets\\brand\\emblem-brass-v2.webp",
+      "beforeBytes": 176564,
+      "afterBytes": 4576
+    },
+    {
+      "original": "public\\assets\\brand\\emblem-dark.png",
+      "refined": "public\\assets\\brand\\emblem-dark-v2.webp",
+      "beforeBytes": 176311,
+      "afterBytes": 3296
+    }
+  ],
+  "originalBytes": 1843299,
+  "refinedBytes": 941028,
+  "reductionPercent": 48.95
+}

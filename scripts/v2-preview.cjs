@@ -1,0 +1,2 @@
+const {chromium}=require('@playwright/test');
+(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1536,height:1024}});p.on('pageerror',e=>console.log('ERROR',e.message));await p.goto('http://localhost:3001',{waitUntil:'networkidle'});await p.waitForTimeout(900);await p.screenshot({path:'tests/v2/first-pass-home.png'});console.log(await p.title());await b.close()})()

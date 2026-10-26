@@ -1,0 +1,451 @@
+[
+  {
+    "path": "/assets/campaigns/homepage-hero-athlete-v2.webp",
+    "source": "JIWA Fighter Iron Heritage homepage-1.png",
+    "operation": {
+      "crop": [
+        630,
+        62,
+        1450,
+        708
+      ]
+    },
+    "width": 820,
+    "height": 646,
+    "bytes": 107006
+  },
+  {
+    "path": "/assets/products/collection-preview-01-apparel-v2.webp",
+    "source": "JIWA Fighter Iron Heritage homepage-1.png",
+    "operation": {
+      "crop": [
+        475,
+        750,
+        801,
+        923
+      ]
+    },
+    "width": 326,
+    "height": 173,
+    "bytes": 18312
+  },
+  {
+    "path": "/assets/products/collection-preview-02-training-v2.webp",
+    "source": "JIWA Fighter Iron Heritage homepage-1.png",
+    "operation": {
+      "crop": [
+        814,
+        750,
+        1143,
+        922
+      ]
+    },
+    "width": 329,
+    "height": 172,
+    "bytes": 11510
+  },
+  {
+    "path": "/assets/products/collection-preview-03-accessories-v2.webp",
+    "source": "JIWA Fighter Iron Heritage homepage-1.png",
+    "operation": {
+      "crop": [
+        1155,
+        750,
+        1430,
+        927
+      ]
+    },
+    "width": 275,
+    "height": 177,
+    "bytes": 9234
+  },
+  {
+    "path": "/assets/campaigns/silat-hero-stance-v2.webp",
+    "source": "Silat Series_ The Art of Defence-2.png",
+    "operation": {
+      "crop": [
+        630,
+        62,
+        1536,
+        696
+      ]
+    },
+    "width": 906,
+    "height": 634,
+    "bytes": 104360
+  },
+  {
+    "path": "/assets/products/silat-training-jersey-front-v2.webp",
+    "source": "Silat Series_ The Art of Defence-2.png",
+    "operation": {
+      "crop": [
+        505,
+        718,
+        744,
+        930
+      ]
+    },
+    "width": 239,
+    "height": 212,
+    "bytes": 11730
+  },
+  {
+    "path": "/assets/products/silat-heritage-jersey-back-v2.webp",
+    "source": "Silat Series_ The Art of Defence-2.png",
+    "operation": {
+      "crop": [
+        851,
+        718,
+        1095,
+        930
+      ]
+    },
+    "width": 244,
+    "height": 212,
+    "bytes": 13496
+  },
+  {
+    "path": "/assets/products/silat-sleeve-culture-detail-v2.webp",
+    "source": "Silat Series_ The Art of Defence-2.png",
+    "operation": {
+      "crop": [
+        1170,
+        718,
+        1536,
+        925
+      ]
+    },
+    "width": 366,
+    "height": 207,
+    "bytes": 16248
+  },
+  {
+    "path": "/assets/products/shop-heritage-jersey-v2.webp",
+    "source": "Jiwa Fighter Iron Heritage shop-3.png",
+    "operation": {
+      "crop": [
+        320,
+        399,
+        696,
+        840
+      ]
+    },
+    "width": 376,
+    "height": 441,
+    "bytes": 50556
+  },
+  {
+    "path": "/assets/products/shop-silat-jersey-v2.webp",
+    "source": "Jiwa Fighter Iron Heritage shop-3.png",
+    "operation": {
+      "crop": [
+        718,
+        399,
+        1093,
+        840
+      ]
+    },
+    "width": 375,
+    "height": 441,
+    "bytes": 43716
+  },
+  {
+    "path": "/assets/products/shop-keris-tuah-jersey-v2.webp",
+    "source": "Jiwa Fighter Iron Heritage shop-3.png",
+    "operation": {
+      "crop": [
+        1117,
+        399,
+        1495,
+        840
+      ]
+    },
+    "width": 378,
+    "height": 441,
+    "bytes": 50340
+  },
+  {
+    "path": "/assets/campaigns/lookbook-hero-warehouse-v2.webp",
+    "source": "Warisan in motion lookbook-5.png",
+    "operation": {
+      "crop": [
+        0,
+        62,
+        968,
+        650
+      ]
+    },
+    "width": 968,
+    "height": 588,
+    "bytes": 100006
+  },
+  {
+    "path": "/assets/campaigns/lookbook-inset-badge-v2.webp",
+    "source": "Warisan in motion lookbook-5.png",
+    "operation": {
+      "crop": [
+        0,
+        655,
+        484,
+        827
+      ]
+    },
+    "width": 484,
+    "height": 172,
+    "bytes": 29124
+  },
+  {
+    "path": "/assets/campaigns/lookbook-inset-hands-v2.webp",
+    "source": "Warisan in motion lookbook-5.png",
+    "operation": {
+      "crop": [
+        490,
+        655,
+        968,
+        827
+      ]
+    },
+    "width": 478,
+    "height": 172,
+    "bytes": 17184
+  },
+  {
+    "path": "/assets/campaigns/lookbook-card-fighter-v2.webp",
+    "source": "Warisan in motion lookbook-5.png",
+    "operation": {
+      "crop": [
+        360,
+        62,
+        700,
+        440
+      ]
+    },
+    "width": 340,
+    "height": 378,
+    "bytes": 32402
+  },
+  {
+    "path": "/assets/campaigns/lookbook-card-craft-v2.webp",
+    "source": "Warisan in motion lookbook-5.png",
+    "operation": {
+      "crop": [
+        0,
+        655,
+        484,
+        827
+      ]
+    },
+    "width": 484,
+    "height": 172,
+    "bytes": 29124
+  },
+  {
+    "path": "/assets/campaigns/lookbook-card-land-v2.webp",
+    "source": "Warisan in motion lookbook-5.png",
+    "operation": {
+      "crop": [
+        1250,
+        851,
+        1426,
+        990
+      ]
+    },
+    "width": 176,
+    "height": 139,
+    "bytes": 7254
+  },
+  {
+    "path": "/assets/products/keris-tuah-thumb-front-v2.webp",
+    "source": "Keris Tuah jersey product page-4.png",
+    "operation": {
+      "crop": [
+        46,
+        134,
+        168,
+        282
+      ]
+    },
+    "width": 122,
+    "height": 148,
+    "bytes": 5408
+  },
+  {
+    "path": "/assets/products/keris-tuah-thumb-back-v2.webp",
+    "source": "Keris Tuah jersey product page-4.png",
+    "operation": {
+      "crop": [
+        43,
+        303,
+        171,
+        477
+      ]
+    },
+    "width": 128,
+    "height": 174,
+    "bytes": 6466
+  },
+  {
+    "path": "/assets/products/keris-tuah-thumb-detail-v2.webp",
+    "source": "Keris Tuah jersey product page-4.png",
+    "operation": {
+      "crop": [
+        43,
+        491,
+        171,
+        651
+      ]
+    },
+    "width": 128,
+    "height": 160,
+    "bytes": 10060
+  },
+  {
+    "path": "/assets/products/keris-tuah-thumb-collar-v2.webp",
+    "source": "Keris Tuah jersey product page-4.png",
+    "operation": {
+      "crop": [
+        43,
+        664,
+        171,
+        823
+      ]
+    },
+    "width": 128,
+    "height": 159,
+    "bytes": 7602
+  },
+  {
+    "path": "/assets/products/keris-tuah-detail-v2.webp",
+    "source": "Keris Tuah jersey product page-4.png",
+    "operation": {
+      "crop": [
+        385,
+        450,
+        780,
+        865
+      ]
+    },
+    "width": 395,
+    "height": 415,
+    "bytes": 59844
+  },
+  {
+    "path": "/assets/products/keris-tuah-collar-v2.webp",
+    "source": "Keris Tuah jersey product page-4.png",
+    "operation": {
+      "crop": [
+        425,
+        166,
+        712,
+        328
+      ]
+    },
+    "width": 287,
+    "height": 162,
+    "bytes": 16060
+  },
+  {
+    "path": "/assets/products/keris-tuah-main-v2.webp",
+    "source": "Keris Tuah jersey product page-4.png",
+    "operation": {
+      "crop": [
+        185,
+        128,
+        926,
+        987
+      ],
+      "background_patch": "Replace baked magnifier with adjacent empty background; garment unchanged."
+    },
+    "width": 741,
+    "height": 859,
+    "bytes": 134404
+  },
+  {
+    "path": "/assets/campaigns/teamwear-group-athletes-v2.webp",
+    "source": "Jiwa Fighter teamwear quote page-7.png",
+    "operation": {
+      "crop": [
+        0,
+        290,
+        982,
+        810
+      ],
+      "mask": "Upper-left title/subcopy removed with transparent rectangle and 5px feather; central hair and faces retained."
+    },
+    "width": 982,
+    "height": 520,
+    "bytes": 113014
+  },
+  {
+    "path": "/assets/brand/emblem-white-v2.webp",
+    "source": "JIWA FIGHTER logo on white.png",
+    "operation": "Original complete monogram, proportional downsample; background to alpha.",
+    "width": 160,
+    "height": 133,
+    "bytes": 4600
+  },
+  {
+    "path": "/assets/brand/wordmark-stacked-white-v2.webp",
+    "source": "JIWA FIGHTER logo on white.png",
+    "operation": "Original stacked wordmark; proportional downsample.",
+    "width": 580,
+    "height": 173,
+    "bytes": 19284
+  },
+  {
+    "path": "/assets/brand/wordmark-white-v2.webp",
+    "source": "JIWA FIGHTER logo on white.png",
+    "operation": "Original JIWA and FIGHTER word crops arranged horizontally; each scaled proportionally to equal height, no glyph redraw.",
+    "width": 879,
+    "height": 64,
+    "bytes": 15454
+  },
+  {
+    "path": "/assets/brand/emblem-brass-v2.webp",
+    "source": "JIWA FIGHTER logo on white.png",
+    "operation": "Original complete monogram, proportional downsample; background to alpha.",
+    "width": 160,
+    "height": 133,
+    "bytes": 4576
+  },
+  {
+    "path": "/assets/brand/wordmark-stacked-brass-v2.webp",
+    "source": "JIWA FIGHTER logo on white.png",
+    "operation": "Original stacked wordmark; proportional downsample.",
+    "width": 580,
+    "height": 173,
+    "bytes": 19056
+  },
+  {
+    "path": "/assets/brand/wordmark-brass-v2.webp",
+    "source": "JIWA FIGHTER logo on white.png",
+    "operation": "Original JIWA and FIGHTER word crops arranged horizontally; each scaled proportionally to equal height, no glyph redraw.",
+    "width": 879,
+    "height": 64,
+    "bytes": 15186
+  },
+  {
+    "path": "/assets/brand/emblem-dark-v2.webp",
+    "source": "JIWA FIGHTER logo on white.png",
+    "operation": "Original complete monogram, proportional downsample; background to alpha.",
+    "width": 160,
+    "height": 133,
+    "bytes": 3296
+  },
+  {
+    "path": "/assets/brand/wordmark-stacked-dark-v2.webp",
+    "source": "JIWA FIGHTER logo on white.png",
+    "operation": "Original stacked wordmark; proportional downsample.",
+    "width": 580,
+    "height": 173,
+    "bytes": 13220
+  },
+  {
+    "path": "/assets/brand/wordmark-dark-v2.webp",
+    "source": "JIWA FIGHTER logo on white.png",
+    "operation": "Original JIWA and FIGHTER word crops arranged horizontally; each scaled proportionally to equal height, no glyph redraw.",
+    "width": 879,
+    "height": 64,
+    "bytes": 10276
+  }
+]

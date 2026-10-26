@@ -1,0 +1,465 @@
+{
+  "measuredAt": "2026-10-25T10:07:23.872Z",
+  "environment": "Local Chromium, fresh context per route, 1536×1024, no network or CPU throttling; single sample per route. Resource totals may include Next.js prefetches. Development-server results are not production benchmarks.",
+  "baseURL": "http://localhost:3000",
+  "results": [
+    {
+      "route": "/",
+      "navigationMs": 176,
+      "lcpMs": 148,
+      "cls": 0,
+      "longTaskCount": 0,
+      "longestTaskMs": 0,
+      "transferBytes": 760870,
+      "javascriptTransferBytes": 158406,
+      "imageTransferBytes": 592766,
+      "fontsTransferBytes": 0,
+      "images": [],
+      "runtimeErrors": [
+        "Minified React error #423; visit https://react.dev/errors/423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+      ]
+    },
+    {
+      "route": "/shop",
+      "navigationMs": 190,
+      "lcpMs": 204,
+      "cls": 0,
+      "longTaskCount": 1,
+      "longestTaskMs": 107,
+      "transferBytes": 959787,
+      "javascriptTransferBytes": 160448,
+      "imageTransferBytes": 789641,
+      "fontsTransferBytes": 0,
+      "images": [
+        {
+          "url": "/assets/brand/emblem-white.png",
+          "naturalWidth": 900,
+          "naturalHeight": 730,
+          "renderedWidth": 36,
+          "renderedHeight": 36,
+          "complete": true
+        },
+        {
+          "url": "/assets/textures/songket-watermark-bone.png",
+          "naturalWidth": 330,
+          "naturalHeight": 180,
+          "renderedWidth": 320,
+          "renderedHeight": 268,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/keris-tuah-main.webp",
+          "naturalWidth": 740,
+          "naturalHeight": 840,
+          "renderedWidth": 347,
+          "renderedHeight": 463,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/shop-heritage-jersey.webp",
+          "naturalWidth": 375,
+          "naturalHeight": 475,
+          "renderedWidth": 347,
+          "renderedHeight": 463,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/shop-silat-jersey.webp",
+          "naturalWidth": 380,
+          "naturalHeight": 475,
+          "renderedWidth": 347,
+          "renderedHeight": 463,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/silat-training-jersey-front.webp",
+          "naturalWidth": 336,
+          "naturalHeight": 208,
+          "renderedWidth": 347,
+          "renderedHeight": 463,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/silat-heritage-jersey-back.webp",
+          "naturalWidth": 346,
+          "naturalHeight": 208,
+          "renderedWidth": 347,
+          "renderedHeight": 463,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/collection-preview-03-accessories.webp",
+          "naturalWidth": 276,
+          "naturalHeight": 235,
+          "renderedWidth": 347,
+          "renderedHeight": 463,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/collection-preview-01-apparel.webp",
+          "naturalWidth": 326,
+          "naturalHeight": 235,
+          "renderedWidth": 347,
+          "renderedHeight": 463,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/collection-preview-02-training.webp",
+          "naturalWidth": 328,
+          "naturalHeight": 235,
+          "renderedWidth": 347,
+          "renderedHeight": 463,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/emblem-brass.png",
+          "naturalWidth": 900,
+          "naturalHeight": 730,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        }
+      ],
+      "runtimeErrors": []
+    },
+    {
+      "route": "/collections/silat-series",
+      "navigationMs": 156,
+      "lcpMs": 128,
+      "cls": 0,
+      "longTaskCount": 0,
+      "longestTaskMs": 0,
+      "transferBytes": 734648,
+      "javascriptTransferBytes": 158290,
+      "imageTransferBytes": 566660,
+      "fontsTransferBytes": 0,
+      "images": [],
+      "runtimeErrors": [
+        "Minified React error #423; visit https://react.dev/errors/423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+      ]
+    },
+    {
+      "route": "/products/keris-tuah",
+      "navigationMs": 106,
+      "lcpMs": 92,
+      "cls": 0,
+      "longTaskCount": 0,
+      "longestTaskMs": 0,
+      "transferBytes": 694036,
+      "javascriptTransferBytes": 109898,
+      "imageTransferBytes": 574440,
+      "fontsTransferBytes": 0,
+      "images": [
+        {
+          "url": "/assets/brand/emblem-white.png",
+          "naturalWidth": 900,
+          "naturalHeight": 730,
+          "renderedWidth": 36,
+          "renderedHeight": 36,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/keris-tuah-main.webp",
+          "naturalWidth": 740,
+          "naturalHeight": 840,
+          "renderedWidth": 78,
+          "renderedHeight": 94,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/keris-tuah-thumb-front.webp",
+          "naturalWidth": 130,
+          "naturalHeight": 155,
+          "renderedWidth": 78,
+          "renderedHeight": 94,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/keris-tuah-thumb-back.webp",
+          "naturalWidth": 130,
+          "naturalHeight": 173,
+          "renderedWidth": 78,
+          "renderedHeight": 94,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/keris-tuah-thumb-detail.webp",
+          "naturalWidth": 130,
+          "naturalHeight": 160,
+          "renderedWidth": 78,
+          "renderedHeight": 94,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/keris-tuah-thumb-collar.webp",
+          "naturalWidth": 130,
+          "naturalHeight": 160,
+          "renderedWidth": 78,
+          "renderedHeight": 94,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/keris-tuah-main.webp",
+          "naturalWidth": 740,
+          "naturalHeight": 840,
+          "renderedWidth": 725,
+          "renderedHeight": 906,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/emblem-brass.png",
+          "naturalWidth": 900,
+          "naturalHeight": 730,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        }
+      ],
+      "runtimeErrors": []
+    },
+    {
+      "route": "/lookbook",
+      "navigationMs": 128,
+      "lcpMs": 116,
+      "cls": 0,
+      "longTaskCount": 0,
+      "longestTaskMs": 0,
+      "transferBytes": 792692,
+      "javascriptTransferBytes": 158339,
+      "imageTransferBytes": 624655,
+      "fontsTransferBytes": 0,
+      "images": [
+        {
+          "url": "/assets/brand/emblem-white.png",
+          "naturalWidth": 900,
+          "naturalHeight": 730,
+          "renderedWidth": 36,
+          "renderedHeight": 36,
+          "complete": true
+        },
+        {
+          "url": "/assets/campaigns/lookbook-hero-warehouse.webp",
+          "naturalWidth": 968,
+          "naturalHeight": 576,
+          "renderedWidth": 896,
+          "renderedHeight": 580,
+          "complete": true
+        },
+        {
+          "url": "/assets/campaigns/lookbook-inset-badge.webp",
+          "naturalWidth": 484,
+          "naturalHeight": 170,
+          "renderedWidth": 446,
+          "renderedHeight": 251,
+          "complete": true
+        },
+        {
+          "url": "/assets/campaigns/lookbook-inset-hands.webp",
+          "naturalWidth": 480,
+          "naturalHeight": 170,
+          "renderedWidth": 446,
+          "renderedHeight": 251,
+          "complete": true
+        },
+        {
+          "url": "/assets/textures/songket-watermark-bone.png",
+          "naturalWidth": 330,
+          "naturalHeight": 180,
+          "renderedWidth": 288,
+          "renderedHeight": 288,
+          "complete": true
+        },
+        {
+          "url": "/assets/campaigns/lookbook-card-fighter.webp",
+          "naturalWidth": 300,
+          "naturalHeight": 142,
+          "renderedWidth": 267,
+          "renderedHeight": 167,
+          "complete": true
+        },
+        {
+          "url": "/assets/campaigns/lookbook-card-craft.webp",
+          "naturalWidth": 300,
+          "naturalHeight": 142,
+          "renderedWidth": 267,
+          "renderedHeight": 167,
+          "complete": true
+        },
+        {
+          "url": "/assets/campaigns/lookbook-card-land.webp",
+          "naturalWidth": 306,
+          "naturalHeight": 142,
+          "renderedWidth": 267,
+          "renderedHeight": 167,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/emblem-brass.png",
+          "naturalWidth": 900,
+          "naturalHeight": 730,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        }
+      ],
+      "runtimeErrors": []
+    },
+    {
+      "route": "/our-story",
+      "navigationMs": 132,
+      "lcpMs": 112,
+      "cls": 0,
+      "longTaskCount": 0,
+      "longestTaskMs": 0,
+      "transferBytes": 708918,
+      "javascriptTransferBytes": 157835,
+      "imageTransferBytes": 541385,
+      "fontsTransferBytes": 0,
+      "images": [
+        {
+          "url": "/assets/brand/emblem-white.png",
+          "naturalWidth": 900,
+          "naturalHeight": 730,
+          "renderedWidth": 36,
+          "renderedHeight": 36,
+          "complete": true
+        },
+        {
+          "url": "/assets/textures/songket-watermark-bone.png",
+          "naturalWidth": 330,
+          "naturalHeight": 180,
+          "renderedWidth": 128,
+          "renderedHeight": 952,
+          "complete": true
+        },
+        {
+          "url": "/assets/campaigns/our-story-bench-athlete.webp",
+          "naturalWidth": 856,
+          "naturalHeight": 635,
+          "renderedWidth": 768,
+          "renderedHeight": 952,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/emblem-brass.png",
+          "naturalWidth": 900,
+          "naturalHeight": 730,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        }
+      ],
+      "runtimeErrors": []
+    },
+    {
+      "route": "/custom",
+      "navigationMs": 123,
+      "lcpMs": 148,
+      "cls": 0,
+      "longTaskCount": 1,
+      "longestTaskMs": 50,
+      "transferBytes": 721324,
+      "javascriptTransferBytes": 159324,
+      "imageTransferBytes": 552302,
+      "fontsTransferBytes": 0,
+      "images": [],
+      "runtimeErrors": [
+        "Minified React error #423; visit https://react.dev/errors/423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+      ]
+    },
+    {
+      "route": "/size-guide",
+      "navigationMs": 260,
+      "lcpMs": 244,
+      "cls": 0.0006,
+      "longTaskCount": 1,
+      "longestTaskMs": 67,
+      "transferBytes": 640593,
+      "javascriptTransferBytes": 158114,
+      "imageTransferBytes": 472781,
+      "fontsTransferBytes": 0,
+      "images": [
+        {
+          "url": "/assets/brand/emblem-white.png",
+          "naturalWidth": 900,
+          "naturalHeight": 730,
+          "renderedWidth": 36,
+          "renderedHeight": 36,
+          "complete": true
+        },
+        {
+          "url": "/assets/textures/songket-watermark-bone.png",
+          "naturalWidth": 330,
+          "naturalHeight": 180,
+          "renderedWidth": 320,
+          "renderedHeight": 471,
+          "complete": true
+        },
+        {
+          "url": "/assets/campaigns/size-guide-athlete.webp",
+          "naturalWidth": 716,
+          "naturalHeight": 475,
+          "renderedWidth": 498,
+          "renderedHeight": 373,
+          "complete": true
+        },
+        {
+          "url": "/assets/campaigns/tshirt-measurement-diagram.webp",
+          "naturalWidth": 270,
+          "naturalHeight": 215,
+          "renderedWidth": 240,
+          "renderedHeight": 191,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/emblem-brass.png",
+          "naturalWidth": 900,
+          "naturalHeight": 730,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        }
+      ],
+      "runtimeErrors": []
+    },
+    {
+      "route": "/support",
+      "navigationMs": 110,
+      "lcpMs": 112,
+      "cls": 0,
+      "longTaskCount": 0,
+      "longestTaskMs": 0,
+      "transferBytes": 606595,
+      "javascriptTransferBytes": 155533,
+      "imageTransferBytes": 441364,
+      "fontsTransferBytes": 0,
+      "images": [
+        {
+          "url": "/assets/brand/emblem-white.png",
+          "naturalWidth": 900,
+          "naturalHeight": 730,
+          "renderedWidth": 36,
+          "renderedHeight": 36,
+          "complete": true
+        },
+        {
+          "url": "/assets/campaigns/support-hero-athlete.webp",
+          "naturalWidth": 756,
+          "naturalHeight": 395,
+          "renderedWidth": 640,
+          "renderedHeight": 478,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/emblem-brass.png",
+          "naturalWidth": 900,
+          "naturalHeight": 730,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        }
+      ],
+      "runtimeErrors": []
+    }
+  ]
+}

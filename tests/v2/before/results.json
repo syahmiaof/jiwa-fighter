@@ -1,0 +1,14 @@
+{
+  "routes": [
+    "/",
+    "/shop",
+    "/collections/silat-series",
+    "/products/keris-tuah",
+    "/lookbook",
+    "/our-story",
+    "/custom",
+    "/size-guide",
+    "/support"
+  ],
+  "errors": []
+}

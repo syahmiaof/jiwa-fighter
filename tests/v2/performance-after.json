@@ -1,0 +1,726 @@
+{
+  "measuredAt": "2026-10-25T13:43:16.877Z",
+  "environment": "Local Chromium, fresh context per route, 1536×1024, no network or CPU throttling; single sample per route. Resource totals may include Next.js prefetches. Development-server results are not production benchmarks.",
+  "baseURL": "http://localhost:3000",
+  "results": [
+    {
+      "route": "/",
+      "navigationMs": 387,
+      "lcpMs": 348,
+      "cls": 0.015,
+      "longTaskCount": 2,
+      "longestTaskMs": 69,
+      "transferBytes": 479232,
+      "javascriptTransferBytes": 201707,
+      "imageTransferBytes": 188278,
+      "fontsTransferBytes": 61036,
+      "images": [
+        {
+          "url": "/assets/brand/emblem-white-v2.webp",
+          "naturalWidth": 160,
+          "naturalHeight": 133,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/wordmark-white-v2.webp",
+          "naturalWidth": 879,
+          "naturalHeight": 64,
+          "renderedWidth": 135,
+          "renderedHeight": 10,
+          "complete": true
+        },
+        {
+          "url": "/assets/campaigns/homepage-hero-athlete-v2.webp",
+          "naturalWidth": 820,
+          "naturalHeight": 646,
+          "renderedWidth": 920,
+          "renderedHeight": 657,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/collection-preview-01-apparel-v2.webp",
+          "naturalWidth": 326,
+          "naturalHeight": 173,
+          "renderedWidth": 332,
+          "renderedHeight": 234,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/collection-preview-02-training-v2.webp",
+          "naturalWidth": 329,
+          "naturalHeight": 172,
+          "renderedWidth": 332,
+          "renderedHeight": 234,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/collection-preview-03-accessories-v2.webp",
+          "naturalWidth": 275,
+          "naturalHeight": 177,
+          "renderedWidth": 332,
+          "renderedHeight": 234,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/emblem-brass-v2.webp",
+          "naturalWidth": 160,
+          "naturalHeight": 133,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/wordmark-brass-v2.webp",
+          "naturalWidth": 879,
+          "naturalHeight": 64,
+          "renderedWidth": 165,
+          "renderedHeight": 12,
+          "complete": true
+        }
+      ],
+      "runtimeErrors": []
+    },
+    {
+      "route": "/shop",
+      "navigationMs": 136,
+      "lcpMs": 92,
+      "cls": 0.0464,
+      "longTaskCount": 0,
+      "longestTaskMs": 0,
+      "transferBytes": 659369,
+      "javascriptTransferBytes": 202691,
+      "imageTransferBytes": 360233,
+      "fontsTransferBytes": 61036,
+      "images": [
+        {
+          "url": "/assets/brand/emblem-white-v2.webp",
+          "naturalWidth": 160,
+          "naturalHeight": 133,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/wordmark-white-v2.webp",
+          "naturalWidth": 879,
+          "naturalHeight": 64,
+          "renderedWidth": 135,
+          "renderedHeight": 10,
+          "complete": true
+        },
+        {
+          "url": "/assets/textures/songket-watermark-bone.png",
+          "naturalWidth": 330,
+          "naturalHeight": 180,
+          "renderedWidth": 320,
+          "renderedHeight": 228,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/shop-heritage-jersey-v2.webp",
+          "naturalWidth": 376,
+          "naturalHeight": 441,
+          "renderedWidth": 366,
+          "renderedHeight": 458,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/shop-silat-jersey-v2.webp",
+          "naturalWidth": 375,
+          "naturalHeight": 441,
+          "renderedWidth": 366,
+          "renderedHeight": 458,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/keris-tuah-main-v2.webp",
+          "naturalWidth": 741,
+          "naturalHeight": 859,
+          "renderedWidth": 366,
+          "renderedHeight": 458,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/silat-training-jersey-front-v2.webp",
+          "naturalWidth": 239,
+          "naturalHeight": 212,
+          "renderedWidth": 366,
+          "renderedHeight": 458,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/silat-heritage-jersey-back-v2.webp",
+          "naturalWidth": 244,
+          "naturalHeight": 212,
+          "renderedWidth": 366,
+          "renderedHeight": 458,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/collection-preview-03-accessories-v2.webp",
+          "naturalWidth": 275,
+          "naturalHeight": 177,
+          "renderedWidth": 366,
+          "renderedHeight": 458,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/collection-preview-01-apparel-v2.webp",
+          "naturalWidth": 326,
+          "naturalHeight": 173,
+          "renderedWidth": 366,
+          "renderedHeight": 458,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/collection-preview-02-training-v2.webp",
+          "naturalWidth": 329,
+          "naturalHeight": 172,
+          "renderedWidth": 366,
+          "renderedHeight": 458,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/emblem-brass-v2.webp",
+          "naturalWidth": 160,
+          "naturalHeight": 133,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/wordmark-brass-v2.webp",
+          "naturalWidth": 879,
+          "naturalHeight": 64,
+          "renderedWidth": 165,
+          "renderedHeight": 12,
+          "complete": true
+        }
+      ],
+      "runtimeErrors": []
+    },
+    {
+      "route": "/collections/silat-series",
+      "navigationMs": 143,
+      "lcpMs": 100,
+      "cls": 0.0124,
+      "longTaskCount": 0,
+      "longestTaskMs": 0,
+      "transferBytes": 474926,
+      "javascriptTransferBytes": 197083,
+      "imageTransferBytes": 188050,
+      "fontsTransferBytes": 61036,
+      "images": [
+        {
+          "url": "/assets/brand/emblem-white-v2.webp",
+          "naturalWidth": 160,
+          "naturalHeight": 133,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/wordmark-white-v2.webp",
+          "naturalWidth": 879,
+          "naturalHeight": 64,
+          "renderedWidth": 135,
+          "renderedHeight": 10,
+          "complete": true
+        },
+        {
+          "url": "/assets/campaigns/silat-hero-stance-v2.webp",
+          "naturalWidth": 906,
+          "naturalHeight": 634,
+          "renderedWidth": 935,
+          "renderedHeight": 645,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/silat-training-jersey-front-v2.webp",
+          "naturalWidth": 239,
+          "naturalHeight": 212,
+          "renderedWidth": 329,
+          "renderedHeight": 211,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/silat-heritage-jersey-back-v2.webp",
+          "naturalWidth": 244,
+          "naturalHeight": 212,
+          "renderedWidth": 329,
+          "renderedHeight": 211,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/silat-sleeve-culture-detail-v2.webp",
+          "naturalWidth": 366,
+          "naturalHeight": 207,
+          "renderedWidth": 329,
+          "renderedHeight": 211,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/emblem-brass-v2.webp",
+          "naturalWidth": 160,
+          "naturalHeight": 133,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/wordmark-brass-v2.webp",
+          "naturalWidth": 879,
+          "naturalHeight": 64,
+          "renderedWidth": 165,
+          "renderedHeight": 12,
+          "complete": true
+        }
+      ],
+      "runtimeErrors": []
+    },
+    {
+      "route": "/products/keris-tuah",
+      "navigationMs": 110,
+      "lcpMs": 164,
+      "cls": 0.0184,
+      "longTaskCount": 0,
+      "longestTaskMs": 0,
+      "transferBytes": 548025,
+      "javascriptTransferBytes": 201707,
+      "imageTransferBytes": 258990,
+      "fontsTransferBytes": 61036,
+      "images": [
+        {
+          "url": "/assets/brand/emblem-white-v2.webp",
+          "naturalWidth": 160,
+          "naturalHeight": 133,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/wordmark-white-v2.webp",
+          "naturalWidth": 879,
+          "naturalHeight": 64,
+          "renderedWidth": 135,
+          "renderedHeight": 10,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/keris-tuah-main-v2.webp",
+          "naturalWidth": 741,
+          "naturalHeight": 859,
+          "renderedWidth": 98,
+          "renderedHeight": 120,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/keris-tuah-main-v2.webp",
+          "naturalWidth": 741,
+          "naturalHeight": 859,
+          "renderedWidth": 98,
+          "renderedHeight": 120,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/keris-tuah-thumb-back-v2.webp",
+          "naturalWidth": 128,
+          "naturalHeight": 174,
+          "renderedWidth": 98,
+          "renderedHeight": 120,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/keris-tuah-detail-v2.webp",
+          "naturalWidth": 395,
+          "naturalHeight": 415,
+          "renderedWidth": 98,
+          "renderedHeight": 120,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/keris-tuah-collar-v2.webp",
+          "naturalWidth": 287,
+          "naturalHeight": 162,
+          "renderedWidth": 98,
+          "renderedHeight": 120,
+          "complete": true
+        },
+        {
+          "url": "/assets/products/keris-tuah-main-v2.webp",
+          "naturalWidth": 741,
+          "naturalHeight": 859,
+          "renderedWidth": 768,
+          "renderedHeight": 873,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/emblem-brass-v2.webp",
+          "naturalWidth": 160,
+          "naturalHeight": 133,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/wordmark-brass-v2.webp",
+          "naturalWidth": 879,
+          "naturalHeight": 64,
+          "renderedWidth": 165,
+          "renderedHeight": 12,
+          "complete": true
+        }
+      ],
+      "runtimeErrors": []
+    },
+    {
+      "route": "/lookbook",
+      "navigationMs": 156,
+      "lcpMs": 148,
+      "cls": 0,
+      "longTaskCount": 1,
+      "longestTaskMs": 65,
+      "transferBytes": 580054,
+      "javascriptTransferBytes": 209070,
+      "imageTransferBytes": 281769,
+      "fontsTransferBytes": 61036,
+      "images": [
+        {
+          "url": "/assets/brand/emblem-white-v2.webp",
+          "naturalWidth": 160,
+          "naturalHeight": 133,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/wordmark-white-v2.webp",
+          "naturalWidth": 879,
+          "naturalHeight": 64,
+          "renderedWidth": 135,
+          "renderedHeight": 10,
+          "complete": true
+        },
+        {
+          "url": "/assets/campaigns/lookbook-hero-warehouse-v2.webp",
+          "naturalWidth": 968,
+          "naturalHeight": 588,
+          "renderedWidth": 982,
+          "renderedHeight": 599,
+          "complete": true
+        },
+        {
+          "url": "/assets/campaigns/lookbook-inset-badge-v2.webp",
+          "naturalWidth": 484,
+          "naturalHeight": 172,
+          "renderedWidth": 482,
+          "renderedHeight": 174,
+          "complete": true
+        },
+        {
+          "url": "/assets/campaigns/lookbook-inset-hands-v2.webp",
+          "naturalWidth": 478,
+          "naturalHeight": 172,
+          "renderedWidth": 482,
+          "renderedHeight": 174,
+          "complete": true
+        },
+        {
+          "url": "/assets/textures/songket-watermark-bone.png",
+          "naturalWidth": 330,
+          "naturalHeight": 180,
+          "renderedWidth": 288,
+          "renderedHeight": 288,
+          "complete": true
+        },
+        {
+          "url": "/assets/campaigns/lookbook-card-fighter-v2.webp",
+          "naturalWidth": 340,
+          "naturalHeight": 378,
+          "renderedWidth": 313,
+          "renderedHeight": 149,
+          "complete": true
+        },
+        {
+          "url": "/assets/campaigns/lookbook-card-craft-v2.webp",
+          "naturalWidth": 484,
+          "naturalHeight": 172,
+          "renderedWidth": 313,
+          "renderedHeight": 149,
+          "complete": true
+        },
+        {
+          "url": "/assets/campaigns/lookbook-card-land-v2.webp",
+          "naturalWidth": 176,
+          "naturalHeight": 139,
+          "renderedWidth": 313,
+          "renderedHeight": 149,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/emblem-brass-v2.webp",
+          "naturalWidth": 160,
+          "naturalHeight": 133,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/wordmark-brass-v2.webp",
+          "naturalWidth": 879,
+          "naturalHeight": 64,
+          "renderedWidth": 165,
+          "renderedHeight": 12,
+          "complete": true
+        }
+      ],
+      "runtimeErrors": []
+    },
+    {
+      "route": "/our-story",
+      "navigationMs": 122,
+      "lcpMs": 116,
+      "cls": 0.0104,
+      "longTaskCount": 0,
+      "longestTaskMs": 0,
+      "transferBytes": 504239,
+      "javascriptTransferBytes": 192015,
+      "imageTransferBytes": 228737,
+      "fontsTransferBytes": 61036,
+      "images": [
+        {
+          "url": "/assets/brand/emblem-white-v2.webp",
+          "naturalWidth": 160,
+          "naturalHeight": 133,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/wordmark-white-v2.webp",
+          "naturalWidth": 879,
+          "naturalHeight": 64,
+          "renderedWidth": 135,
+          "renderedHeight": 10,
+          "complete": true
+        },
+        {
+          "url": "/assets/textures/songket-watermark-bone.png",
+          "naturalWidth": 330,
+          "naturalHeight": 180,
+          "renderedWidth": 128,
+          "renderedHeight": 654,
+          "complete": true
+        },
+        {
+          "url": "/assets/campaigns/our-story-bench-athlete.webp",
+          "naturalWidth": 856,
+          "naturalHeight": 635,
+          "renderedWidth": 860,
+          "renderedHeight": 654,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/emblem-brass-v2.webp",
+          "naturalWidth": 160,
+          "naturalHeight": 133,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/wordmark-brass-v2.webp",
+          "naturalWidth": 879,
+          "naturalHeight": 64,
+          "renderedWidth": 165,
+          "renderedHeight": 12,
+          "complete": true
+        }
+      ],
+      "runtimeErrors": []
+    },
+    {
+      "route": "/custom",
+      "navigationMs": 178,
+      "lcpMs": 136,
+      "cls": 0.004,
+      "longTaskCount": 1,
+      "longestTaskMs": 59,
+      "transferBytes": 452619,
+      "javascriptTransferBytes": 209070,
+      "imageTransferBytes": 154330,
+      "fontsTransferBytes": 61036,
+      "images": [
+        {
+          "url": "/assets/brand/emblem-white-v2.webp",
+          "naturalWidth": 160,
+          "naturalHeight": 133,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/wordmark-white-v2.webp",
+          "naturalWidth": 879,
+          "naturalHeight": 64,
+          "renderedWidth": 135,
+          "renderedHeight": 10,
+          "complete": true
+        },
+        {
+          "url": "/assets/campaigns/teamwear-group-athletes-v2.webp",
+          "naturalWidth": 982,
+          "naturalHeight": 520,
+          "renderedWidth": 998,
+          "renderedHeight": 548,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/emblem-brass-v2.webp",
+          "naturalWidth": 160,
+          "naturalHeight": 133,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/wordmark-brass-v2.webp",
+          "naturalWidth": 879,
+          "naturalHeight": 64,
+          "renderedWidth": 165,
+          "renderedHeight": 12,
+          "complete": true
+        }
+      ],
+      "runtimeErrors": []
+    },
+    {
+      "route": "/size-guide",
+      "navigationMs": 116,
+      "lcpMs": 124,
+      "cls": 0.0006,
+      "longTaskCount": 1,
+      "longestTaskMs": 51,
+      "transferBytes": 441640,
+      "javascriptTransferBytes": 196099,
+      "imageTransferBytes": 160133,
+      "fontsTransferBytes": 61036,
+      "images": [
+        {
+          "url": "/assets/brand/emblem-white-v2.webp",
+          "naturalWidth": 160,
+          "naturalHeight": 133,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/wordmark-white-v2.webp",
+          "naturalWidth": 879,
+          "naturalHeight": 64,
+          "renderedWidth": 135,
+          "renderedHeight": 10,
+          "complete": true
+        },
+        {
+          "url": "/assets/textures/songket-watermark-bone.png",
+          "naturalWidth": 330,
+          "naturalHeight": 180,
+          "renderedWidth": 320,
+          "renderedHeight": 487,
+          "complete": true
+        },
+        {
+          "url": "/assets/campaigns/size-guide-athlete.webp",
+          "naturalWidth": 716,
+          "naturalHeight": 475,
+          "renderedWidth": 733,
+          "renderedHeight": 494,
+          "complete": true
+        },
+        {
+          "url": "/assets/campaigns/tshirt-measurement-diagram.webp",
+          "naturalWidth": 270,
+          "naturalHeight": 215,
+          "renderedWidth": 238,
+          "renderedHeight": 190,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/emblem-brass-v2.webp",
+          "naturalWidth": 160,
+          "naturalHeight": 133,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/wordmark-brass-v2.webp",
+          "naturalWidth": 879,
+          "naturalHeight": 64,
+          "renderedWidth": 165,
+          "renderedHeight": 12,
+          "complete": true
+        }
+      ],
+      "runtimeErrors": []
+    },
+    {
+      "route": "/support",
+      "navigationMs": 124,
+      "lcpMs": 104,
+      "cls": 0.0002,
+      "longTaskCount": 0,
+      "longestTaskMs": 0,
+      "transferBytes": 413502,
+      "javascriptTransferBytes": 199378,
+      "imageTransferBytes": 128716,
+      "fontsTransferBytes": 61036,
+      "images": [
+        {
+          "url": "/assets/brand/emblem-white-v2.webp",
+          "naturalWidth": 160,
+          "naturalHeight": 133,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/wordmark-white-v2.webp",
+          "naturalWidth": 879,
+          "naturalHeight": 64,
+          "renderedWidth": 135,
+          "renderedHeight": 10,
+          "complete": true
+        },
+        {
+          "url": "/assets/campaigns/support-hero-athlete.webp",
+          "naturalWidth": 756,
+          "naturalHeight": 395,
+          "renderedWidth": 753,
+          "renderedHeight": 405,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/emblem-brass-v2.webp",
+          "naturalWidth": 160,
+          "naturalHeight": 133,
+          "renderedWidth": 32,
+          "renderedHeight": 32,
+          "complete": true
+        },
+        {
+          "url": "/assets/brand/wordmark-brass-v2.webp",
+          "naturalWidth": 879,
+          "naturalHeight": 64,
+          "renderedWidth": 165,
+          "renderedHeight": 12,
+          "complete": true
+        }
+      ],
+      "runtimeErrors": []
+    }
+  ]
+}

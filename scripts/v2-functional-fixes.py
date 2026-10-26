@@ -1,0 +1,35 @@
+from pathlib import Path
+p=Path('src/lib/cart/CartContext.tsx');s=p.read_text();s=s.replace('removeItem: (id: string, size: string)', 'removeItem: (id: string, size: string, color: string)').replace('updateQuantity: (id: string, size: string, delta: number)', 'updateQuantity: (id: string, size: string, delta: number, color: string)')
+s=s.replace("const [items, setItems] = useState<CartItem[]>([]);", "const [items, setItems] = useState<CartItem[]>([]);\n  const [hydrated, setHydrated] = useState(false);")
+s=s.replace('setItems(JSON.parse(saved));', "const parsed: unknown = JSON.parse(saved);\n        if (Array.isArray(parsed)) setItems(parsed.filter((item): item is CartItem => !!item && typeof item === 'object' && ['id','slug','name','size','color','image'].every(key => typeof item[key] === 'string') && Number.isFinite(item.price) && item.price >= 0 && Number.isInteger(item.quantity) && item.quantity > 0));")
+s=s.replace('  // Save to localStorage', '  // Save only after restoring persisted state, including in Strict Mode.')
+s=s.replace('  }, []);', '    setHydrated(true);\n  }, []);',1)
+s=s.replace("    try {\n      localStorage.setItem('jiwa_cart'", "    if (!hydrated) return;\n    try {\n      localStorage.setItem('jiwa_cart'")
+s=s.replace('  }, [items]);','  }, [items, hydrated]);')
+s=s.replace('i.id === item.id && i.size === item.size','i.id === item.id && i.size === item.size && i.color === item.color')
+s=s.replace('const removeItem = (id: string, size: string)', 'const removeItem = (id: string, size: string, color: string)').replace('const updateQuantity = (id: string, size: string, delta: number)', 'const updateQuantity = (id: string, size: string, delta: number, color: string)')
+s=s.replace('i.id === id && i.size === size','i.id === id && i.size === size && i.color === color')
+p.write_text(s)
+p=Path('src/components/cart/CartDrawer.tsx');s=p.read_text().replace('`${item.id}-${item.size}`','`${item.id}-${item.size}-${item.color}`').replace('removeItem(item.id, item.size)','removeItem(item.id, item.size, item.color)').replace('updateQuantity(item.id, item.size, -1)','updateQuantity(item.id, item.size, -1, item.color)').replace('updateQuantity(item.id, item.size, 1)','updateQuantity(item.id, item.size, 1, item.color)');p.write_text(s)
+p=Path('src/app/layout.tsx');s=p.read_text().replace("import '@/styles/refinements.css';", "import '@/styles/refinements.css';\nimport '@/styles/motion.css';");p.write_text(s)
+p=Path('src/app/shop/page.tsx');s=p.read_text().replace('useState, useMemo','useState, useMemo, useEffect');s=s.replace('  const collections =', "  useEffect(() => {\n    const params = new URLSearchParams(window.location.search);\n    const category = params.get('category');\n    const collection = params.get('collection');\n    if (category) setSelectedCategories([category]);\n    if (collection) setSelectedCollections([collection]);\n  }, []);\n\n  const collections =")
+s=s.replace("let list = [...PRODUCTS];", "let list = [...PRODUCTS].sort((a, b) => ['prod-002', 'prod-003', 'prod-001'].indexOf(b.id) < 0 ? -1 : ['prod-002', 'prod-003', 'prod-001'].indexOf(a.id) < 0 ? 1 : ['prod-002', 'prod-003', 'prod-001'].indexOf(a.id) - ['prod-002', 'prod-003', 'prod-001'].indexOf(b.id));")
+s=s.replace("list.filter((p) => selectedCollections.includes(p.collection))", "list.filter((p) => selectedCollections.includes(p.collection) || (selectedCollections.includes('Keris Tuah') && p.slug === 'keris-tuah'))")
+s=s.replace('<main className=', '<div className=').replace('</main>','</div>');s=s.replace('value={sortBy}', 'aria-label="Sort products"\n                    value={sortBy}').replace('aria-label="Add to wishlist"','aria-label={`Save ${product.name}`}\n                        aria-pressed={isFav}')
+p.write_text(s)
+# Associate existing form labels without changing behavior.
+for filename,prefix in [('src/app/custom/page.tsx','custom'),('src/app/support/page.tsx','support')]:
+ p=Path(filename);s=p.read_text();import re
+ count=[0]
+ def labelmatch(m):
+  count[0]+=1;id=f'{prefix}-field-{count[0]}';return m.group(1).replace('<label ',f'<label htmlFor="{id}" ',1)+m.group(2)+m.group(3).replace('<'+m.group(4),f'<{m.group(4)} id="{id}"',1)
+ s=re.sub(r'(<label\b[^>]*>)(.*?</label>\s*)(<(input|select|textarea)\b)',labelmatch,s,flags=re.S)
+ p.write_text(s)
+p=Path('src/app/support/page.tsx');s=p.read_text().replace('const { t } = useLanguage();','const { t, language } = useLanguage();').replace("useState<number | null>(0)","useState<number | null>(null)")
+s=s.replace('const categories = [', 'const categories: { id: \'orders\' | \'shipping\' | \'sizing\' | \'teamwear\'; label: string }[] = [').replace('setActiveCategory(cat.id as any)','setActiveCategory(cat.id)').replace('setOpenFaq(0)','setOpenFaq(null)')
+s=s.replace('const currentFaqs = faqData[activeCategory] || faqData.orders;', "const currentFaqs = (searchQuery.trim() ? Object.values(faqData).flat() : faqData[activeCategory]).filter(faq => `${faq.q} ${faq.a}`.toLowerCase().includes(searchQuery.trim().toLowerCase()));")
+s=s.replace('onChange={(e) => setSearchQuery(e.target.value)}', 'aria-label={t.support.searchPlaceholder}\n                  onChange={(e) => { setSearchQuery(e.target.value); setOpenFaq(null); }}')
+s=s.replace('onClick={() => setOpenFaq(isOpen ? null : idx)}', 'aria-expanded={isOpen}\n                      aria-controls={`faq-answer-${idx}`}\n                      onClick={() => setOpenFaq(isOpen ? null : idx)}').replace('<div className="pt-2 pl-7', '<div id={`faq-answer-${idx}`} className="pt-2 pl-7')
+s=s.replace('{currentFaqs.map((faq, idx) => {', '{currentFaqs.length === 0 && <p role="status" className="py-6 text-sm">{language === \'bm\' ? \'Tiada jawapan ditemui. Cuba kata kunci lain.\' : \'No answers found. Try another keyword.\'}</p>}\n              {currentFaqs.map((faq, idx) => {')
+s=s.replace('{/* Category Pills */}', '<p className="text-xs text-text-muted-dark">{language === \'bm\' ? \'Panduan demo sahaja. Polisi penghantaran dan pemulangan belum disahkan.\' : \'Demo guidance only. Shipping and returns policies are not confirmed.\'}</p>\n            {/* Category Pills */}')
+p.write_text(s)

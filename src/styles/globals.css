@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-obsidian: #0C0D0F;
+    --color-obsidian-subtle: #141619;
+    --color-brass: #C6A260;
+    --color-bone: #F0ECE3;
+    --color-oxblood: #621F24;
+  }
+
+  body {
+    background-color: #0C0D0F;
+    color: #F0ECE3;
+    font-family: var(--font-sans), 'Inter', sans-serif;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0C0D0F;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #23272D;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #C6A260;
+  }
+}
+
+/* Songket & Heritage Motifs */
+.songket-gold-border {
+  border-image: linear-gradient(to right, transparent, #C6A260, transparent) 1;
+}
+
+.songket-corner-pattern {
+  background-image: radial-gradient(#C6A260 0.75px, transparent 0.75px);
+  background-size: 12px 12px;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

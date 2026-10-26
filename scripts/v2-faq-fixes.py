@@ -1,0 +1,5 @@
+from pathlib import Path
+p=Path('src/app/support/page.tsx');s=p.read_text();s=s.replace("import { CampaignLines }", "import { supportAnswers } from '@/data/support';\nimport { CampaignLines }");a=s.index('  const faqData = {');b=s.index('  const currentFaqs =',a);s=s[:a]+'  const faqData = supportAnswers[language];\n\n'+s[b:];p.write_text(s)
+# No fake network wait in a local-only demo. This also removes unmounting timers.
+for filename in ['src/app/custom/page.tsx','src/app/support/page.tsx']:
+ p=Path(filename);s=p.read_text();s=s.replace('    setIsSubmitting(true);','');s=s.replace('    // Simulate network submission\n    setTimeout(() => {\n      setIsSubmitting(false);\n      setSubmitted(true);\n    }, 600);','    setSubmitted(true);');s=s.replace('    setTimeout(() => {\n      setIsSubmitting(false);\n      setIsSubmitted(true);\n    }, 600);','    setIsSubmitted(true);');s=s.replace("  const [isSubmitting, setIsSubmitting] = useState(false);", "  const isSubmitting = false;");p.write_text(s)
